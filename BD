@@ -1,0 +1,23 @@
+01 - cd pasta 
+03 -composer global require laravel/installer
+02 - laravel new laravel1
+03 - cd laravel1
+04 - php artisan serve
+05 - php artisan key:generate     para criptografa cookes
+
+
+
+
+
+00 - BD
+CREATE DATABASE BLOG;
+CREATE TABLE USUARIO(
+id int AUTO_INCREMENT,
+    nome varchar(60)not null,
+    email varchar(60)not null,
+    cpf varchar(14)not null,
+    descricao varchar(255)not null,
+    preco float(8,2)not null,
+    primary key(id)
+
+);
